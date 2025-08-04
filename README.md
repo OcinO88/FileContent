@@ -1,4 +1,9 @@
 # FileContent
-2 functions to quickly read / write files.
-They make use of .NET System.IO.File functions to do this task.
-This way they are loads quicker than get-content and set-content.
+This repository provides two PowerShell functions for quickly reading from and writing to files. These functions are:
+
+- `Set-FileContent`
+- `Get-FileContent`
+
+## Overview
+The functions make use of the .NET System.IO.File class to do thes tasks.
+This way they are loads quicker than PowerShell's default functions get-content and set-content.
